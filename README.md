@@ -14,6 +14,7 @@ This project is well tested on Ubuntu 18.04 and should be compatible with Ubuntu
 <a> https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/</a>
 * install rails, check this link for more details :
 <a>https://guides.rubyonrails.org/v5.0/getting_started.html </a>
+* install PostgreSQL, check this link for installation instructions: <a> https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows </a> if you're on windows and <a>https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04</a> this one if you're on Ubuntu.
 * Navigate to the folder from your terminal
 * Type ``` bundle install ``` for installing all the project packages.
 * configure the database username and password in ``` config/database.yml ```
@@ -22,6 +23,8 @@ This project is well tested on Ubuntu 18.04 and should be compatible with Ubuntu
 ##  Database creation
 
 If You faced any problem with the database then try creating it with the name ``` trips_handler_development ```, and note that it's a PostgreSQL Database not sqlite.
+
+<b> NOTE: You might need to migrate after following those steps. </b>
 
 ## Database Schema and ERD
 
