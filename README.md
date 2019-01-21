@@ -1,7 +1,7 @@
 
 # Trips Handler
 
-The purpose of this evaluation task is to make a simple CRUD operations on the trips table as well as inserting trips locations.
+The purpose of this project is to make a simple CRUD operations on the trips table as well as inserting trips locations.
 
 ## System dependencies
 
